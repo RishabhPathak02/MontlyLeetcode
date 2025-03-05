@@ -1,0 +1,7 @@
+class Solution {
+    public long coloredCells(int n) {
+        long total =  1 + 2l * n*(n-1) ;
+        return total ;
+        
+    }
+}
